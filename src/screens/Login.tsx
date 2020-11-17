@@ -21,15 +21,16 @@ export default function Login({ navigation }: any) {
     }
     
     return (
-        <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+        <View style={{ flex: 1, alignItems: "center", justifyContent: "center", marginBottom: 100}}>
             <SnipsoundLogo />
-            <KeyboardAvoidingView behavior={Platform.OS == "ios" ? "padding" : "height"} style={{}}>
+            
                 <Text style={[styles.title, { alignSelf: "center" }]}>What's your name?</Text>
+                <KeyboardAvoidingView behavior={Platform.OS == "ios" ? "position" : "height"}>
                 <View style={{ flexDirection: "row", justifyContent: "center" }}>
                     <TextInput onChangeText={text => setUsername(text)} style={[styles.textInput, { flex: 0, width: 200 }]} placeholder="Name.."></TextInput>
                     <TouchableOpacity onPress={login} style={[( validUsername() ? styles.active : styles.inactive), { marginTop: 10 }]}
                         disabled={!validUsername()}>
-                        <Text style={{ fontSize: 20 , fontFamily: 'Manrope_400Regular' }}>Enter</Text>
+                        <Text style={{ fontSize: 20 , }}>Enter</Text>
                     </TouchableOpacity>
                 </View>
                 {username.length >= 15 ? <Text style={{color: "red", alignSelf: "center"}}>Name must be less than 15 characters</Text>: null}

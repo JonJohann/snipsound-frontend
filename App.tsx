@@ -15,15 +15,6 @@ import {
 
 const Stack = createStackNavigator();
 
-const screenOptions = {
-    headerStyle: {
-        backgroundColor: "#3a3a3a",
-    },
-    headerTintColor: '#fff',
-    headerTitleStyle: {
-        fontWeight: "bold" as "bold" }
-}
-
 export default function App() {
 
     let [fontsLoaded] = useFonts({
@@ -36,7 +27,7 @@ export default function App() {
 
         <Provider store={configureStore}>
             <NavigationContainer>
-                <Stack.Navigator screenOptions={screenOptions} >
+                <Stack.Navigator  >
                     <Stack.Screen name="Login" component={Login} options={{ title: "Welcome" }} />
                     <Stack.Screen name="SoundList" component={SoundList} options={{ title: "All snipsounds" }} />
                     <Stack.Screen name="Recording" component={Recording} options={{ title: "Record your own Snipsound" }} />

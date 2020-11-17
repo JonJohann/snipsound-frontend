@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioButton /> renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#e6e6e6",
+      "borderColor": "#6d557000",
+      "borderRadius": 10,
+      "borderWidth": 1,
+      "elevation": 2,
+      "marginHorizontal": 2,
+      "marginVertical": 5,
+      "opacity": 1,
+      "paddingHorizontal": 12,
+      "paddingVertical": 8,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "grey",
+        "fontFamily": "Manrope_400Regular",
+        "fontSize": 20,
+      }
+    }
+  >
+    Rap
+  </Text>
+</View>
+`;

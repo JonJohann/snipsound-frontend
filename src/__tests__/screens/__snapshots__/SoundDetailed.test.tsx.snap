@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SoundDetailed /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "marginTop": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(255,255,255, 0.96)",
+        "borderRadius": 20,
+        "padding": 35,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Manrope_400Regular",
+            "fontSize": 30,
+            "fontWeight": "bold",
+          },
+          Object {
+            "marginBottom": 10,
+          },
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Manrope_400Regular",
+          "fontSize": 20,
+          "marginVertical": 2,
+          "textAlign": "center",
+        }
+      }
+    >
+      By 
+      
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Manrope_400Regular",
+          "fontSize": 20,
+          "marginVertical": 2,
+          "textAlign": "center",
+        }
+      }
+    >
+       Category: 
+      
+       
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "Manrope_400Regular",
+          "fontSize": 20,
+          "marginVertical": 2,
+          "textAlign": "center",
+        }
+      }
+    >
+       Posted on: 
+      NaN.NaN.NaN at NaN:NaN
+       
+    </Text>
+    <View
+      style={
+        Object {
+          "alignSelf": "stretch",
+          "borderTopColor": "#F194FF",
+          "borderTopWidth": 1,
+          "marginVertical": 20,
+          "width": 300,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "borderColor": "#acacac",
+          "fontFamily": "Manrope_400Regular",
+          "fontSize": 20,
+          "paddingHorizontal": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        Object {
+          "alignSelf": "stretch",
+          "borderTopColor": "#F194FF",
+          "borderTopWidth": 1,
+          "marginVertical": 20,
+          "width": 300,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "margin": 10,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text />
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "margin": 10,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text />
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -12,7 +12,7 @@ The rest are in package.json
 
 # Testing
 ## End 2 end testing
-I did manually end 2 end test the app on an iPhone XR using the Expo app, and on an emulated Pixel XL.
+I did manually end 2 end test the app on an iPhone XR using the Expo app, and on an emulated Pixel XL and iPhone SE.
 The following end 2 end tests were succesfully executed:
 #### Login screen - As a user trying to log in to Snipsound:
 * Trying to log in with a name that's either too short or too long
